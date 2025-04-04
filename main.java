@@ -8,7 +8,7 @@ public class main {
 	Scanner console = new Scanner(System.in);
 	String animal = console.nextLine();
 	String big = "Свинья";
-     System.out.println( animal.toLowerCase().equals(big.toLowerCase()) ? 1:2);
+     System.out.println( animal.toLowerCase().equals(big.toLowerCase()) ? "Харам":"Халяль");
 	    
 	}
 
